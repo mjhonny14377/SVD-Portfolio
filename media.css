@@ -1,0 +1,37 @@
+
+@media screen and (max-width:867px){
+   
+    .software p ,.webdev p{
+        text-align: center;
+    }
+    .summary p{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px){
+    nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display:flex;
+    }
+    .hamlight{
+        display: flex;
+        justify-content: center;
+      }
+    #popupVideo{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:500px){
+    .contact{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:400px){
+    .contact{
+        font-size: 10px;
+    }
+}
+  
