@@ -13,13 +13,13 @@
     <!---------------------navigation bar------------------------------------->
     <header>
         <nav>
-            <div class="logo" ><a href="#main"><p>Sayyed vakar durga</p></a></div>
+            <div class="logo" ><a href="#main"><p><span class="initial">S</span>ayyed <span class="initial">V</span>akar <span class="initial">D</span>urga</p></a></div>
             <div class="nav-items">
                 <ul  class="list-items">
-                    <li><a href="#main">home</a></li>
-                    <li><a href="#about">about</a></li>
-                    <li><a href="#projects">projects</a></li>
-                    <li><a href="#contactsection">contacts</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactsection">Contacts</a></li>
                 </ul>
             </div>
             <div class="lightmode">
@@ -30,7 +30,7 @@
             
         </nav>
         <nav id="hamburger-nav">
-            <div class="logo" ><a href="#main"><p>Sayyed vakar durga</p></a></div>
+            <div class="logo" ><a href="#main"><p><span class="initial">S</span>ayyed <span class="initial">V</span>akar <span class="initial">D</span>urga</p></a></div>
             <div class="hamburger-menu">
               <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -38,8 +38,8 @@
                 <span></span>
               </div>
               <div class="menu-links">
-                <li><a href="#main" onclick="toggleMenu()">home</a></li>
-                <li><a href="#about" onclick="toggleMenu()">about</a></li>
+                <li><a href="#main" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contactsection" onclick="toggleMenu()">Contact</a></li>
               </div>
@@ -57,7 +57,7 @@
 
         <div class="face-off">
             <h3 class="hello">Hello, I'm</h3>
-            <h1 class="myname">Sayyed vakar durga shaik</h1>
+            <h1 class="myname"><span class="initial">S</span>ayyed <span class="initial">V</span>akar <span class="initial">D</span>urga Shaik</h1>
             <h2 class="qual">Web Developer</h2>
             <div class="btn">
                 <a href="files/Sayyed_vakar_durga_resume.pdf" target="_blank"><button type="button" class="cv" >Download CV</button></a>
@@ -83,53 +83,62 @@
     <!----------------------------about me ---------------------------------------------->
     <section id="about">
         <h3>Get To Know More</h3>
-        <h1>About Me</h1>
+        <h1><span class="initial">About Me</span></h1>
     </section>
     <section class="info">
-        <div class="education"><h2>Education</h2>
+        <div class="education"><h2><span class="sub">Education</span></h2>
             <div class="tab">
                 
                     <div class="btech">
-                        <h1>Graduation</h1>
+                        <h1><span class="did">Graduation</span></h1>
                         <p>Information Technology (B.Tech)</p>
                         <p>R.V.R & J.C COLLEGE OF ENGINEERING</p>
-                        <p>6.6 CGPA</p></div>
+                    </div>
                     <div class="dip">
-                        <h1>Diploma/Polytechnic</h1>
+                        <h1><span class="did">Diploma/Polytechnic</span></h1>
                         <p>Civil Engineering</p>
                         <p>M.B.T.S GOVERNMENT POLYTECHNIC</p>
-                        <p>6.7 CGPA</p></div>
+                    </div>
                     <div class="school">
-                        <h1>Secondary Education</h1>
+                        <h1><span class="did">Secondary Education</span></h1>
                         <p>Class-X</p>
                         <p>SRI SAI HIGH SCHOOL</p>
-                        <p>8.3 GPA</p>
                     </div>
              </div>
         </div>
         
         <div class="summary">
-            <h2>Summary</h2>
+            <h2><span class="sub">Summary</span></h2>
             <p>Motivated graduate in Information Technology with a strong foundation in web-development & programming languages. Eager to further master my skills and broaden my expertise in a dynamic learning environment. Possessing a passion for continuous learning and growth, I am enthusiastic about embracing new technologies & methodologies to excel in the rapidly evolving field of IT. Seeking opportunities that foster professional development and offer hands­-on experiences to contribute meaningfully to innovative projects.</p>
         </div>
        
         <div class="skills">
             <h3>Explore My</h3>
-            <h2>Skills</h2>
+            <h2><span class="sub">Skills</span></h2>
             <div class="data">
                 <div class="software">
-                    <h1>Software Development</h1>
-                    <p><i class="fa-brands fa-python"></i> Python</p>
-                    <p><i class="fa-brands fa-js"></i> Javascript</p>
-                    <p><i class="fa-brands fa-github"></i> Github</p> 
+                    <div class="heading">
+                        <h1><span class="did">Software Development</span></h1>
+                    </div>
+                   <div class="soft">
+                    <p><i class="fa-brands fa-python fa-2xl"></i> Python</p>
+                    <p><i class="fa-brands fa-github fa-2xl"></i> Github</p> 
+                    <p><i class="fa-brands fa-js fa-2xl"></i> Javascript</p>
+                   </div>
+                 
                 </div>
                 <div class="webdev">
-                    <h1>Web Development</h1>
-                    <p><i class="fa-brands fa-html5"></i> HTML</p>
-                    <p><i class="fa-brands fa-css3-alt"></i> CSS</p>
-                    <p><i class="fa-brands fa-bootstrap"></i> Bootstrap</p>
-                    <p><i class="fa-brands fa-react"></i> React.js</p>
-                    <p><i class="fa-brands fa-node-js"></i> Node.js</p>
+                    <div class="heading">
+                        <h1><span class="did">Web Development</span></h1>
+                    </div>
+                    <div class="dev">
+                        <p><i class="fa-brands fa-html5 fa-2xl"></i> HTML</p>
+                        <p><i class="fa-brands fa-css3-alt fa-2xl"></i> CSS</p>
+                        <p><i class="fa-brands fa-node-js fa-2xl"></i> Node.js</p>
+                        <p><i class="fa-brands fa-react fa-2xl"></i> React.js</p>
+                        <p><i class="fa-brands fa-bootstrap fa-2xl"></i> Bootstrap</p> 
+                    </div>
+                            
                 </div>
             </div>
         </div>
@@ -140,11 +149,11 @@
 <!--------------------------projects----------------------------------------------->
 <section id="projects">
     <h3>Browse My Recent</h3>
-    <h2>Projects</h2>
+    <h2><span class="initial">Projects</span></h2>
     <div class="projectset">
         <div class="projectcard">
             <img src="images/weather.png" alt="Weather app logo">
-            <h1 class="title">climeforage<br>(Weatherapp)</h1>
+            <h1 class="title"><span class="sub">Climeforage</span><br>(Weatherapp)</h1>
             <div  class="probutton">
                 <!--<a href="" target="_blank"><button type="button" class="cv">Live Demo</button></a> -->
                 <a href="https://mjhonny14377.github.io/weatherapp/" target="_blank"><button type="button" class="cv">Go To Site</button></a>
@@ -155,7 +164,7 @@
         <div class="projectcard">
             
             <img src="images/main page mywebsite.png" alt="portfolio website logo">
-            <h1 class="title">portfolio website<br>(bootstrap Prototype)</h1>
+            <h1 class="title"><span class="sub">Portfolio Website</span><br>(Boot Prototype)</h1>
             <div  class="probutton">
                 <button type="button" class="cv" onclick="openPopup()">Watch Video</button>
                 <a href="https://mjhonny14377.github.io/my-website/" target="_blank"><button type="button" class="cv">Go To Site</button></a>
@@ -165,7 +174,7 @@
         </div>
         <div class="projectcard">
             <img src="images/page main.png" alt="bussines website logo">
-            <h1 class="title">Bussiness website</h1>
+            <h1 class="title"><span class="sub">Business Website</span></h1>
             <div  class="probutton">
                <button type="button" class="cv" onclick="openPopup('images/BUSSINESS WEBSITE.mp4')">Watch Video</button>
               
@@ -191,7 +200,7 @@
 
 <section id="contactsection">
     <h3>Get in touch</h3>
-    <h2>Contact me</h2>
+    <h2><span class="initial">Contact Me</span></h2>
     <div class="contact">
         
        <a href="https://www.linkedin.com/in/sayyed-vakar-durga-shaik-51b88610a" target="_blank"><p class="mail"><i class="fa-brands fa-linkedin fa-1x"></i> LinkedIn</p></a>
@@ -206,14 +215,14 @@
     <nav class="navigation">
         <div class="nav-items">
             <ul  class="list-items">
-                <li><a href="#main">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contactsection">contacts</a></li>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contactsection">Contacts</a></li>
             </ul>
         </div>
     </nav>
-    <p>Copyright &copy; 2024 Sayyed vakar durga Shaik. All Rights Reserved</p>
+    <p>Copyright &copy; 2024 Sayyed Vakar Durga Shaik. All Rights Reserved</p>
 </footer>
 
     <script src="script.js"></script>
