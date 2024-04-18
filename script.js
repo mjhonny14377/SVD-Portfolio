@@ -5,11 +5,11 @@ function light(){
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
         mode.src = "images/switch.png";
-        document.querySelector(".light").innerHTML ="Dark mode";
+        document.querySelector(".light").innerHTML ="Dark Mode";
     }
     else{
         mode.src = "images/switch black.png";
-        document.querySelector(".light").innerHTML="Light mode"
+        document.querySelector(".light").innerHTML="Light Mode"
     }
  }
 
@@ -18,12 +18,12 @@ var mode = document.querySelector("#mode");
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
         mode.src = "images/switch.png";
-        document.querySelector(".light").innerHTML ="Dark mode";
+        document.querySelector(".light").innerHTML ="Dark Mode";
 
     }
     else{
         mode.src = "images/switch black.png";
-        document.querySelector(".light").innerHTML="Light mode"
+        document.querySelector(".light").innerHTML="Light Mode"
     }
  }
 /*--------------------------video play------------------------*/
@@ -56,10 +56,10 @@ function toggleMenu() {
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
         mode.src = "images/switch.png";
-        document.querySelector(".lantern").innerHTML ="Dark mode";
+        document.querySelector(".lantern").innerHTML ="Dark Mode";
     }
     else{
         mode.src = "images/switch black.png";
-        document.querySelector(".lantern").innerHTML="Light mode"
+        document.querySelector(".lantern").innerHTML="Light Mode"
     }
  }

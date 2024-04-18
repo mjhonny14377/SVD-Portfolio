@@ -45,6 +45,9 @@ h3{
   color: var(--darkmode-color);
 
 }
+button{
+  font-weight: 600;
+}
 .modeswitch{
   color: var(--darkmode-color);
   background-color: var(--lightmode-color);
@@ -277,6 +280,7 @@ text-wrap: nowrap;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  font-weight: 600;
 }
 
 .summary h2{
@@ -287,6 +291,7 @@ text-wrap: nowrap;
   padding: 10px;
   text-align: left;
   color: var(--darkmode-color);
+  font-weight: 600;
 }
 .skills{
   margin-top: 25px;
@@ -333,9 +338,11 @@ text-wrap: nowrap;
 
 .software p{
   padding: 15px;
+  font-weight: 600;
 }
 .webdev p{
   padding: 15px;
+  font-weight: 600;
 }
 .software h1 ,.webdev h1{
   text-wrap: nowrap;
@@ -344,7 +351,7 @@ text-wrap: nowrap;
 }
 /*--------------------------------projects------------------------------*/
 section h3{
-  font-weight: 600;
+  font-weight: 400;
 }
 section h2{
 
@@ -392,6 +399,7 @@ section h2{
 }
 .projectcard h1{
   text-wrap: nowrap;
+  color: var(--darkmode-color);
 }
 .probutton{
    margin: 5px;
@@ -431,6 +439,9 @@ section h2{
 }
 .contact a{
   text-decoration: none;
+}
+.mail,.gmail{
+  font-weight: 600;
 }
 /*-------------------------------footer-----------------------------------*/
 footer{
