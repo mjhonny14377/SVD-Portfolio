@@ -349,6 +349,15 @@ text-wrap: nowrap;
   text-decoration: none;
   text-align: center;
 }
+.logos{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+
 /*--------------------------------projects------------------------------*/
 section h3{
   font-weight: 400;
